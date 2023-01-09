@@ -39,13 +39,14 @@ export default function TextForm(props) {
         props.showAlert("Converted to Capatilized", "primary");
     };
     const copyToClipboard = () => {
-        var copyText = document.getElementById("myBox");
-        // Select the text field
-        copyText.select();
-        copyText.setSelectionRange(0, 99999); // For mobile devices
-        // Copy the text inside the text field
-        document.getSelection().removeAllRanges();
-        navigator.clipboard.writeText(copyText.value);
+        // var copyText = document.getElementById("myBox");
+        // // Select the text field
+        // copyText.select();
+        // copyText.setSelectionRange(0, 99999); // For mobile devices
+        // // Copy the text inside the text field
+        // document.getSelection().removeAllRanges();
+        // navigator.clipboard.writeText(copyText.value);
+        navigator.clipboard.writeText(text);
         // Alert the copied text
         // alert("Copied the text: " + copyText.value);
         props.showAlert("Copied to clipboard", "info");
