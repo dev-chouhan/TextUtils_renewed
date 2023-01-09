@@ -71,19 +71,19 @@ export default function TextForm(props) {
                     <button className="btn btn-secondary mx-3 my-2" disabled={text.split(" ").filter((t) => t !== "").length === 0} onClick={handleDownClick}>
                         Convert to Lowercase
                     </button>
-                    <button className="btn btn-secondary mx-3 my-2" disabled={text.split(" ").filter((t) => t !== "").length === 0 ? 'disabled' : ''} onClick={handleCapitalize}>
+                    <button className="btn btn-secondary my-2" disabled={text.split(" ").filter((t) => t !== "").length === 0 ? 'disabled' : ''} onClick={handleCapitalize}>
                         Capatilize the text
                     </button>
                     <button className="btn btn-secondary mx-3 my-2" disabled={text.split(" ").filter((t) => t !== "").length === 0 ? 'disabled' : ''} onClick={handleReverse}>
                         Reverse the text
                     </button>
-                    <button className="btn btn-secondary mx-3 my-2" disabled={text.split(" ").filter((t) => t !== "").length === 0 ? 'disabled' : ''} onClick={copyToClipboard}>
+                    <button className="btn btn-secondary my-2" disabled={text.split(" ").filter((t) => t !== "").length === 0 ? 'disabled' : ''} onClick={copyToClipboard}>
                         Copied to Clipboard
                     </button>
                     <button onClick={speak} disabled={text.split(" ").filter((t) => t !== "").length === 0 ? 'disabled' : ''} className="btn btn-secondary mx-3 my-2">
                         Speak
                     </button>
-                    <button className="btn btn-danger mx-3 my-2" disabled={text.split(" ").filter((t) => t !== "").length === 0 ? 'disabled' : ''} onClick={handleClear}>
+                    <button className="btn btn-danger my-2" disabled={text.split(" ").filter((t) => t !== "").length === 0 ? 'disabled' : ''} onClick={handleClear}>
                         Clear all text
                     </button>
                 </div>
