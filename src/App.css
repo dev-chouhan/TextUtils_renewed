@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.blank{
+  font-size: 7rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  color: #249602;
+}
