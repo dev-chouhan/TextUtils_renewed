@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Website is deployed on Netlify servers, click the link below to checkout website
+https://textutils-dev.netlify.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
